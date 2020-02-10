@@ -1,0 +1,13 @@
+{
+    "name": "Unclickbaitify",
+    "version": "1.0",
+    "description": "Unclickbait YouTube Titles",
+    "manifest_version": 2,
+
+    "content_scripts": [
+        {
+            "matches": ["https://*.youtube.com/*"],
+            "js": ["unclickbaitify.js"]
+        }
+    ]
+}
